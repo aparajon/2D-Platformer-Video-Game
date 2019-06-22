@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Skeleton
+  - JumpEdge
+  - PlayerCamFollower
+  - BoundingObject
+  - Wall
+  - Level
+  - LunaKey
+  - Sandra
+  - FlyEdge
+  - PlayerAttack
+  - EnemyBoss
+  - Foreground
+  - BG Music
+  - LevelLoader
+  - Skeleton Cine
+  - Flag
+  - Checkpoint
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Background
+  - Foreground
+  - Enemies
+  - Player
+  - Enemy Projectile
+  - Player Projectile
+  - Interactables
+  - Hazards
+  - Invisible
+  - Talking NPC
+  - Breakables
+  - Climbing
+  - Enemies2
+  - Invulnerable
+  - Luna Projectile
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 745406051
+    locked: 0
+  - name: Background2
+    uniqueID: 2211740669
+    locked: 0
+  - name: Interactables
+    uniqueID: 3715936439
+    locked: 0
+  - name: Enemy Projectile
+    uniqueID: 1235735943
+    locked: 0
+  - name: Enemies
+    uniqueID: 3125341813
+    locked: 0
+  - name: Player Projectile
+    uniqueID: 3871988265
+    locked: 0
+  - name: Hazards
+    uniqueID: 2747957963
+    locked: 0
+  - name: Foreground
+    uniqueID: 2782101401
+    locked: 0
+  - name: Climbing
+    uniqueID: 240114459
+    locked: 0
+  - name: Player
+    uniqueID: 3848635067
+    locked: 0
+  - name: Effects
+    uniqueID: 916277219
+    locked: 0
+  - name: Breakables
+    uniqueID: 2037534009
+    locked: 0
+  - name: Instant Death Hazard
+    uniqueID: 1630988105
+    locked: 0

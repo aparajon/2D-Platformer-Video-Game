@@ -1,0 +1,212 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1391508162195878}
+  m_IsPrefabParent: 1
+--- !u!1 &1391508162195878
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4267728064840500}
+  - component: {fileID: 212576458502957338}
+  - component: {fileID: 70160506444135674}
+  - component: {fileID: 50213708193025690}
+  - component: {fileID: 95993286386270288}
+  - component: {fileID: 114505318716272138}
+  - component: {fileID: 114036343153115322}
+  m_Layer: 10
+  m_Name: Luna
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4267728064840500
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1391508162195878}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.18, y: -5.43, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &50213708193025690
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1391508162195878}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 1
+  m_UseAutoMass: 0
+  m_Mass: 100000
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4
+--- !u!70 &70160506444135674
+CapsuleCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1391508162195878}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.796875}
+  m_Size: {x: 0.75, y: 1.59375}
+  m_Direction: 0
+--- !u!95 &95993286386270288
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1391508162195878}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6252dac707b268848bb30ce2bc0386d4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114036343153115322
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1391508162195878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd0476d676b5ab541bcfd396e0dfcdf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canTalk: 0
+  onlyPlayOnce: 0
+  dialog:
+    charName:
+    - Xin
+    - Luna
+    - Luna
+    - Xin
+    - Luna
+    charDialog:
+    - Luna!  I'm here to stop you from blowing up the school!
+    - What are you talking about?  Wait, did Lux put you up to this?
+    - And what is with that disgusting pink suit? Whatever, your timing is perfect.  My
+      last test subject turned into a skeleton, but now that you're here you can take
+      his place.
+    - Sk-skeleton!?
+    - I'll set you on fire with my enchanted umbrella.  Try not to die!
+    charImage:
+    - {fileID: 21300000, guid: 5a95b453b36fb2c4ca85e1a92b27e120, type: 3}
+    - {fileID: 21300000, guid: d810f0b124015644fbb21cc22ba63ea7, type: 3}
+    - {fileID: 21300000, guid: d810f0b124015644fbb21cc22ba63ea7, type: 3}
+    - {fileID: 21300000, guid: 5a95b453b36fb2c4ca85e1a92b27e120, type: 3}
+    - {fileID: 21300000, guid: d810f0b124015644fbb21cc22ba63ea7, type: 3}
+  triggerType: 1
+  playDialog: 1
+--- !u!114 &114505318716272138
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1391508162195878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: deb864d6fff94b748bb796de4f405648, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackSkipToggle: 0
+  lunaHit: {fileID: 8300000, guid: adb5f04ad0acc144da65434ec025b84f, type: 3}
+  lunaFlames: {fileID: 8300000, guid: 48698936678ba7f40a2eec5d32c68844, type: 3}
+  lunaFireball: {fileID: 8300000, guid: e0f123e75664cfc4b823b92f56f91bf1, type: 3}
+  lunaGuard: {fileID: 8300000, guid: cf6c0e7fbef9449c98a0cdb5ea0c4d9f, type: 3}
+  lunaAttacking: {fileID: 8300000, guid: 050229e248342b344937d86b3b4f065d, type: 3}
+  lunaAttacking2: {fileID: 8300000, guid: 8e2da641c319e5645b9bff333c17f02e, type: 3}
+  fullHeart: {fileID: 21300000, guid: 583e29647c1a0864a93abc301a6423ed, type: 3}
+  halfHeart: {fileID: 21300004, guid: 583e29647c1a0864a93abc301a6423ed, type: 3}
+  emptyHeart: {fileID: 21300002, guid: 583e29647c1a0864a93abc301a6423ed, type: 3}
+  lunaDied: 0
+  health: 16
+  lerpDistance: 0.02
+  arrow: {fileID: 1326526697786722, guid: e433596f5fb8ba04d9397f4c65bb90cd, type: 2}
+  fireball: {fileID: 1854532516671370, guid: ad34ba460b3422342a320180a6c5ac7f, type: 2}
+  flames: {fileID: 1365614078396828, guid: cf99f7caa1d8b7e41b63fa2fde92b257, type: 2}
+  fireballSpeed: 1200
+  flamesSpeed: 1400
+  arrowSpeed: 1200
+  knockbackAmount: 5000
+--- !u!212 &212576458502957338
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1391508162195878}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -1169625483
+  m_SortingLayer: 5
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 83c9b0696410a894ca2bd3cc94ca998c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.75, y: 1.59375}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0

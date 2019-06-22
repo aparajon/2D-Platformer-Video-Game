@@ -1,0 +1,452 @@
+fileFormatVersion: 2
+guid: c3e42d9b466a63e48b51e0a6a7163fa5
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SkeletonWarriorRedux_0
+    21300002: SkeletonWarriorRedux_1
+    21300004: SkeletonWarriorRedux_2
+    21300006: SkeletonWarriorRedux_3
+    21300008: SkeletonWarriorRedux_4
+    21300010: SkeletonWarriorRedux_5
+    21300012: SkeletonWarriorRedux_6
+    21300014: SkeletonWarriorRedux_7
+    21300016: SkeletonWarriorRedux_8
+    21300018: SkeletonWarriorRedux_9
+    21300020: SkeletonWarriorRedux_10
+    21300022: SkeletonWarriorRedux_11
+    21300024: SkeletonWarriorRedux_12
+    21300026: SkeletonWarriorRedux_13
+    21300028: SkeletonWarriorRedux_14
+    21300030: SkeletonWarriorRedux_15
+    21300032: SkeletonWarriorRedux_16
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SkeletonWarriorRedux_0
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 75
+        width: 23
+        height: 37
+      alignment: 9
+      pivot: {x: 0.32704163, y: 0.29963395}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0995aa17d32ab648bd32584dcdcc100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonWarriorRedux_1
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 74
+        width: 42
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5301361, y: 0.27519906}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70a2afed84c3214ab14d183904da497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonWarriorRedux_2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 76
+        width: 31
+        height: 29
+      alignment: 9
+      pivot: {x: 0.67828864, y: 0.4502637}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77ee52ff0b4c5f4caa7f7c85b7db6ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonWarriorRedux_3
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 75
+        width: 16
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763aa80b130d950438273ae952a448f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonWarriorRedux_4
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 75
+        width: 16
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529a2eac0e525c648941f891035bbcac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonWarriorRedux_5
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 75
+        width: 18
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7a60d70592cca43b5c6d1ecfb863e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonWarriorRedux_6
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 75
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d76ea4ab57478a4fb4f5160f3506e58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonWarriorRedux_7
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 76
+        width: 17
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae6100ddbc2db644803d150a5f1c337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonWarriorRedux_8
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 75
+        width: 16
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96aba198e537522498e699c9b171bd03
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonWarriorRedux_9
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 76
+        width: 15
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9dd9c48eab02d84aaa3413f2caa6072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonWarriorRedux_10
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 75
+        width: 16
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3858ce46319764aa454c9b1316bb7f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonWarriorRedux_11
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 75
+        width: 16
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6257acaa1d289cc4590da563f872dc92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonWarriorRedux_12
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 75
+        width: 15
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516c49d9029704b47a13ed8112876620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonWarriorRedux_13
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 76
+        width: 15
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9c888d6abdde04484ff488034045f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonWarriorRedux_14
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 47
+        width: 141
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638ba9a831e7b444d86a8fd98da88a67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonWarriorRedux_15
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 25
+        width: 35
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d9c3033f9a0e24ab1000bb8466d244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonWarriorRedux_16
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 26
+        width: 64
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5720984f1aef03e498b1b852fa8c7dc2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8cf352705e7ba7848855575efbabb05e
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

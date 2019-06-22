@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/0.MainMenu.unity
+    guid: 8e48c9d725e3ccd47b64ec9fee8d5860
+  - enabled: 1
+    path: Assets/Scenes/1.Park.unity
+    guid: 5383affe5efad654e9e524cdb9cac569
+  - enabled: 1
+    path: Assets/Scenes/2.Sewer.unity
+    guid: 3e78d87c974c58048869d24fe3d393ff
+  - enabled: 1
+    path: Assets/Scenes/3.Lair.unity
+    guid: b4287d3289f08cd43a3e7eec165ea460
+  - enabled: 1
+    path: Assets/Scenes/4.BossFight.unity
+    guid: 73840caedde9eee478213e2ef3e1c646
+  - enabled: 1
+    path: Assets/Scenes/5.Ending.unity
+    guid: 58dc431a020715e4e8e1ee38ace9fbf2
+  m_configObjects: {}
